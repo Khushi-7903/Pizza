@@ -1,0 +1,14 @@
+@media(min-width :992px) and (max-width:1199px){
+    .p-for-text-of-pizza {
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+
+    .res-info-container h2{
+        font-size: 20px;
+    }
+
+    .res-info-container p{
+        font-size: 10px;
+    }
+}

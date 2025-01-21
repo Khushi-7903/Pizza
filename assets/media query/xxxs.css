@@ -1,0 +1,72 @@
+@media(max-width:320px) {
+
+    .for-text-of-pizza {
+        text-align: center;
+        justify-content: center !important;
+        /* margin-top: 2% !important;
+            margin-bottom: 5% !important; */
+    }
+
+    .pizza-text-container{
+        width: 100% !important;
+    }
+
+    .subheading {
+        font-size: 15px;
+    }
+
+    .h1-for-text-of-pizza {
+        font-size: 30px !important;
+    }
+
+    .p-for-text-of-pizza {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    p .btn {
+        font-size: 12px !important;
+        width: 80px !important;
+        height: 30px !important;
+        margin-bottom: 2% !important;
+        padding: 2% !important;
+    }
+
+    .info-container{
+        padding-bottom: 20px;
+    }
+
+    .res-info-main-container h2{
+        font-size: 18px;
+    }
+    
+    .res-info-main-container{
+        padding: 30px !important;
+    }
+
+    .res-info-main-container p{
+        font-size: 10px;
+    }
+
+    .services-wrap {
+        width: 100%;
+    }
+    .service{
+        margin-bottom: 3%;
+    }
+
+    .text{
+        padding: 0% !important;
+    }
+
+    .price a{
+        height: 50% !important;
+        margin-bottom: 5% !important;
+        padding: 0px !important;
+        /* font-size: 8px !important; */
+    }
+
+    /* price */
+
+    
+}

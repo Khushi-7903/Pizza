@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+/* navbar  start*/
+
+#navbarSupportedContent ul {
+    display: flex;
+    gap: 20px;
+}
+
+#navbarSupportedContent ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: #fac564;
+}
+
+/* navbar end */
+
+/* main start */
+
+/* pizza */
+.main,
+.main-menu {
+    background-image: url(assets/img/bg_1.jpg);
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: color;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-menu {
+    background-image: url(assets/img/bg_3.jpg);
+    color: white;
+}
+
+.main-part-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-text-of-pizza {
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+}
+
+.subheading {
+    color: #fac564;
+    /* font-family: "Playwrite HU", serif; */
+    font-family: "Dancing Script", serif;
+    font-size: 40px;
+}
+
+.p-for-text-of-pizza {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.for-pizza {
+    object-fit: contain;
+}
+
+.for-pizza img {
+    width: 100%;
+    height: 100%;
+    animation: pizza 60s linear infinite;
+    ;
+}
+
+@keyframes pizza {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* info */
+
+.text h3 {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.text p {
+    color: grey;
+}
+
+.icon i {
+    color: #fac564;
+    font-size: 20px;
+}
+
+.info {
+    gap: 15px;
+}
+
+.social-media {
+    gap: 30px;
+}
+
+/* information about restaurant */
+
+.res-info {
+    /* height: 80vh; */
+    background-color: pink;
+}
+
+.res-info-main-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.res-info-container {
+    width: 80%;
+}
+
+.res-info-container h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.res-info-container h2 span {
+    color: #fac564;
+}
+
+.res-info-container p {
+    font-family: "Poppins", Arial, sans-serif;
+    color: gray;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+/* service */
+
+.service-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.icon-box i {
+    color: #5c3d03;
+}
+
+.feature-card h5 {
+    font-size: 18px;
+    color: black;
+}
+
+.feature-card p {
+    color: #5c3d03;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.icon-box {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    transition: color .3s ease;
+}
+
+.icon-box i {
+    z-index: 5555;
+}
+
+.feature-card:hover .icon-box i {
+    color: white;
+}
+
+.iconborder {
+    position: absolute;
+    top: 0%;
+    left: 26%;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black !important;
+    transition: transform .3s ease;
+    z-index: 1;
+}
+
+.feature-card:hover .iconborder {
+    z-index: -5;
+    border: 2px solid #ffc107 !important;
+    background-color: #ffc107;
+    transform: rotate(140deg);
+}
+
+/* hot pizza meals */
+
+.hot-pizza h2 {
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.services-wrap {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.services-wrap h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.services-wrap p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+
+.price span {
+    color: #fac564;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.price a {
+    background: rgba(0, 0, 0, 0.2);
+    background: none;
+    border-width: 1px;
+    color: #fff;
+    margin-left: 5%;
+    border: 1px solid #fff;
+}
+
+.price a:hover {
+    color: black;
+    border: 1px solid #fac564;
+    background-color: #fac564;
+}
+
+/* price */
+.menu-divider {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-divider::before,
+.menu-divider::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    width: 1px;
+    background-color: #ffa500;
+    /* Gold-like color */
+}
+
+.menu-box,
+.menu-box-lg {
+    width: 10px;
+    height: 10px;
+    background-color: #ffa500;
+    /* Gold color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e2e2e;
+    /* Matches background color */
+    font-size: 1.2rem;
+}
+
+.menu-box-lg {
+    width: 15px;
+    height: 15px;
+}
+
+.menu-item {
+    border-bottom: 1px dashed #fff;
+    padding: 15px 0;
+}
+
+.menu-price {
+    font-weight: bold;
+}
+
+.menu-description {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.menu-image {
+    width: 80px;
+    height: 97px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pizza-price-div h5 {
+    color: white;
+    font-size: 18px;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.pizza-menu-img img {
+    /* background-image: url(assets/img/pizza-1.jpg); */
+    object-fit: cover;
+    width: 60px !important;
+    border-radius: 100%;
+    height: 60px;
+}
+
+.pizza-menu-items {
+    h6 {
+        color: #bababa;
+        background-image: url(assets/img/bg_4.jpg);
+        width: fit-content;
+        padding-right: 25px;
+        height: 20px;
+    }
+
+    p {
+        background-image: url(assets/img/bg_4.jpg);
+        color: #fac564;
+        width: 80px;
+        height: 28px;
+    }
+
+    div {
+        border-bottom: 1px dashed #fac564;
+        height: 15px;
+    }
+}
+
+.pizza-menu {
+    position: relative;
+
+    .pizza-menu-dec {
+        color: #888;
+        position: absolute;
+        top: 30px;
+    }
+}
+
+/* Common Styles for Images */
+.images {
+    height: 300px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-1 {
+    background-image: url("assets/img/gallery-1.jpg") !important;
+}
+
+.image-2 {
+    background-image: url("assets/img/gallery-2.jpg") !important;
+}
+
+.image-3 {
+    background-image: url("assets/img/gallery-3.jpg") !important;
+}
+
+.image-4 {
+    background-image: url("assets/img/gallery-4.jpg") !important;
+}
+
+
+.images .icon {
+    width: 50px;
+    height: 50px;
+    z-index: 0;
+    opacity: 0;
+    position: relative;
+    transition: all 0.6s ease;
+}
+
+.images .icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background: #fac564;
+    z-index: 9;
+    transition: all 0.6s ease;
+}
+
+.images .icon span {
+    color: #fff;
+}
+
+
+.images:hover .icon,
+.images:focus .icon {
+    opacity: 1;
+}
+
+.images:hover .icon::before,
+.images:focus .icon::before {
+    transform: rotate(135deg);
+}
+
+
+.bg-image {
+    width: 100%;
+    height: 389px;
+    background-image: url("assets/img/bg_2.jpg");
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.719);
+    background-blend-mode: darken !important;
+}
+
+.box {
+    width: 80px;
+    height: 72px;
+    position: relative;
+    padding: 45px 45px 45px 45px;
+
+    i {
+        color: #fac564 !important;
+        font-size: 40px;
+        transition: color 0.3s ease;
+    }
+}
+
+.box::before {
+    content: "";
+    border: 1.5px solid #fac564;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    transition: all 0.6s ease;
+    background-color: transparent;
+}
+
+.box:hover i {
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.775) !important;
+}
+
+.box:hover::before {
+    background-color: #fac564;
+    transform: rotate(135deg);
+}
+
+.counter {
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    color: #fac564;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(191, 191, 191);
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        height: 500px !important;
+    }
+}
+
+.tab-btn {
+    color: #fac564 !important;
+    border: 1px solid #fac564 !important;
+    margin-right: 10px;
+    border-radius: 0% !important;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+    background-color: #fac564;
+    color: #444 !important;
+}
+
+.menu-card h5 {
+    color: white;
+}
+
+.menu-card p {
+    color: #888;
+}
+
+.menu-card img {
+    border-radius: 100%;
+    width: 200px;
+}
+
+.menu-card a {
+    color: white;
+    border: 1px solid white;
+
+    &:hover {
+        background-color: #fac564;
+        border: none;
+        color: #121618;
+    }
+}
+
+.menu-card h6 {
+    color: #fac564;
+}
+
+.menu-card-img {
+    background-image: url(assets/img/pizza-3.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.contact-detail {
+    color: white;
+}
+
+.contact-detail-index {
+    background-color: black;
+}
+
+.contact-detail input,
+textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #2e2e2e;
+    padding-bottom: 15px;
+}
+
+.contact-detail input::placeholder,
+textarea::placeholder {
+    color: #bababa;
+}
+
+.contact-detail button {
+    width: 80px;
+    height: 50px;
+    background-color: #fac564;
+    color: #2e2e2e;
+    border: none;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: #fac564;
+        border: 1px solid #fac564;
+        background-color: transparent;
+    }
+}
+
+.contact {
+    color: white;
+}
+
+.first :last-child {
+    color: #888;
+}
+
+p :last-child {
+    color: #fac564;
+}
+
+/* ourChef */
+
+.ourChef h2 {
+    border-bottom: 1px solid #5c3d03;
+}
+
+.homeANDabout a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.chefCard .card {
+    bordeR: 1px solid #5c3d03;
+    background-color: transparent;
+}
+
+.imgPerson img {
+    border: 1px solid #5c3d03;
+}
+
+.chefCard .card:hover .imgPerson img {
+    border: 1px solid #fac564;
+}
+
+.chefCard .card:hover {
+    border: 1px solid #fac564;
+}
+
+.chefCard h5 {
+    color: #fac564;
+    font-size: 15px;
+}
+
+.chefCard .Specialist {
+    font-size: 12px;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+
+.chefCard p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.res-info-container h2,
+.ourChef h2,
+.about h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.main {
+    background-image: url(assets/img/bg_1.jpg);
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: color;
+    display: flex;
+}
+
+.about {
+    background-image: url(assets/img/bg_3.jpg) !important;
+    display: block;
+}
+
+/* main end */
+
+/* footer start */
+footer {
+    font-size: 16px;
+    color: white;
+    background: #101315;
+}
+
+footer h2 {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-family: "Poppins", Arial, sans-serif;
+    color: gray;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.about-footer ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.about-footer ul li i {
+    font-size: 20px;
+}
+
+.service ul li {
+    color: gray;
+}
+
+
+.blog-item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.blog-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.blog-details h6 {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #888;
+}
+
+.blog-meta i {
+    margin-right: 5px;
+}
+
+/* footer end */

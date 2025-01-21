@@ -1,0 +1,53 @@
+@media(min-width :768px) and (max-width:992px){
+
+    .p-for-text-of-pizza{
+        font-size: 14px !important;
+    }
+    .p-for-text-of-pizza {
+        font-size: 16px;
+    }
+
+    p .btn{
+        padding: 4% !important;
+    }
+
+    .res-info-container h2{
+        font-size: 20px;
+    }
+
+    .res-info-container p{
+        font-size: 10px;
+    }
+
+    /* service */
+
+    .service-text{
+        width: 100%;
+    }
+
+    .service-text h2{
+        font-size: 28px;
+    }
+
+    .service-text p{
+        font-size: 12px;
+    }
+
+    .icon-box i{
+        font-size: 32px;
+    }
+
+    .iconborder{
+        width: 100%;
+        left: 0%;
+    }
+
+    .feature-card h5{
+        font-size: 16px;
+    }
+
+    .feature-card p{
+        font-size: 12px;
+    }
+
+}

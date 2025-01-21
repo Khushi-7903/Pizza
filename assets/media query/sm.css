@@ -1,0 +1,32 @@
+@media(min-width :576px) and (max-width:767px) {
+
+    .subheading {
+        font-size: 18px;
+    }
+
+    .for-text-of-pizza {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .h1-for-text-of-pizza {
+        font-size: 30px;
+    }
+
+    .p-for-text-of-pizza {
+        font-size: 18px;
+    }
+
+    p .btn {
+        padding: 2% !important;
+    }
+
+    .services-wrap {
+        width: 100%;
+    }
+
+    .price a{
+        margin-bottom: 2%;
+    }
+
+}

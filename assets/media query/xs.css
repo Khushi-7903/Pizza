@@ -1,0 +1,74 @@
+@media(min-width :480px) and (max-width:575px){
+
+    .for-text-of-pizza {
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    .subheading {
+        font-size: 18px;
+    }
+
+    .h1-for-text-of-pizza {
+        font-size: 30px;
+    }
+
+    .p-for-text-of-pizza {
+        font-size: 16px;
+    }
+
+    p .btn {
+        padding: 2% !important;
+    }
+
+    .res-info-main-container{
+        padding: 30px !important;
+    }
+    .services-wrap {
+        width: 100%;
+    }
+    .service{
+        margin-bottom: 3%;
+    }
+
+    .text{
+        padding: 0% !important;
+    }
+
+    .price a{
+        margin-bottom: 2%;
+    }
+
+    
+    /* footer */
+
+    footer h2 , footer p{
+        text-align: center;
+    }
+
+    .about-footer{
+        margin-bottom: 20px;
+    }
+
+    .about-footer ul{
+        justify-content: center;
+    }
+
+    .recent-blog{
+        margin-bottom: 10% !important;
+    }
+
+    .footer-service  ul{
+        align-items: center;
+        color: gray;
+    }
+    .footer-service{
+        margin-bottom: 10%;
+    }
+
+    .footer-que p{
+        text-align: center;
+    }
+}

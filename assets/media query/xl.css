@@ -1,0 +1,8 @@
+@media(min-width :1200px) and (max-width:1399px){
+    .res-info-container h2{
+        font-size: 32px;
+    }
+    .res-info-container p{
+        font-size: 12px;
+    }
+}
